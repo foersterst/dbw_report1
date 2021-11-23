@@ -103,23 +103,16 @@ Note however that the lepiforum species have mean wing length values for
 both wings (columns “wing\_right” and “wing\_left”).
 
 ``` r
-head(dat.ok.0)
+head(dat.ok.0)[, c(1, 5, 6)]
 ```
 
-    ##                 species mean_wl_lab wingspan_widest wingspan_tips wing_right
-    ## 1 Abraxas grossulariata    20.70000            41.0      39.92666   21.36844
-    ## 2  Aethalura punctulata    14.03333            23.5      21.70081   12.72827
-    ## 3      Alcis repandatus    19.60000            39.6      37.86122   21.51549
-    ## 4   Arichanna melanaria    18.23750            36.0      33.91222   19.07622
-    ## 5    Cabera exanthemata    13.20556            27.0      24.71811   13.90666
-    ## 6        Cabera pusaria    13.03333            28.5      26.65116   14.90850
-    ##   wing_left body_length abdomen_width
-    ## 1  20.80806   13.693706      3.193663
-    ## 2  12.78055    7.696730      2.274044
-    ## 3  21.78351   14.460196      3.277378
-    ## 4  19.00144   13.574299      2.556297
-    ## 5  13.69231    9.388602      2.584374
-    ## 6  14.69089   10.143621      2.317855
+    ##                 species  wing_right  wing_left
+    ## 1 Abraxas grossulariata    21.36844   20.80806
+    ## 2  Aethalura punctulata    12.72827   12.78055
+    ## 3      Alcis repandatus    21.51549   21.78351
+    ## 4   Arichanna melanaria    19.07622   19.00144
+    ## 5    Cabera exanthemata    13.90666   13.69231
+    ## 6        Cabera pusaria    14.90850   14.69089
 
 As I did not know which wing to use, I took the mean of
 the two wings for each species, something like this: (wing\_right +
