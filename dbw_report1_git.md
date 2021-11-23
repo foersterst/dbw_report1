@@ -114,7 +114,7 @@ head(dat.ok.0)[, c(1, 5, 6)]
     ## 5    Cabera exanthemata    13.90666   13.69231
     ## 6        Cabera pusaria    14.90850   14.69089
 
-As I did not know which wing to use, I took the mean of
+As I did not know if should use the right or the left wing, I took the mean of
 the two wings for each species, something like this: (wing\_right +
 wing\_left)/2. These values were added to a new column called
 “mean\_wl\_lep”.
