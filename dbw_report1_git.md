@@ -248,7 +248,7 @@ intersect(intersect(dat.lp$species, dat.jj$species), phy.sh$tip.label)
     ## [45] "Trichopteryx carpinata"   "Xanthorhoe biriviata"    
     ## [47] "Xanthorhoe ferrugata"     "Xanthorhoe spadicearia"
 
-How many species per sex
+How many species are there (per sex)?
 
 ``` r
 unique(dat.ok.0$species) %>% length() # sex 0: 39 species
