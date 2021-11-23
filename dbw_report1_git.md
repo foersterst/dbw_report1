@@ -121,7 +121,7 @@ head(dat.ok.0)
     ## 5  13.69231    9.388602      2.584374
     ## 6  14.69089   10.143621      2.317855
 
-In this case, as I did not know which wing to use, I took the mean of
+As I did not know which wing to use, I took the mean of
 the two wings for each species, something like this: (wing\_right +
 wing\_left)/2. These values were added to a new column called
 “mean\_wl\_lep”.
